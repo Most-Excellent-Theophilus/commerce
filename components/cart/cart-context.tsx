@@ -19,6 +19,7 @@ type UpdateType = 'plus' | 'minus' | 'delete';
 type CartAction =
   | {
       type: 'UPDATE_ITEM';
+      
       payload: { merchandiseId: string; updateType: UpdateType };
     }
   | {

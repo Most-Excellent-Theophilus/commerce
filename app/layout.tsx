@@ -28,7 +28,7 @@ export default async function RootLayout({
   children: ReactNode;
 }) {
   // Don't await the fetch, pass the Promise to the context provider
-  const cart = getCart();
+  const cart =  getCart();
 
   return (
     <html lang="en" className={GeistSans.variable}>
